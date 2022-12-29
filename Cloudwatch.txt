@@ -1,0 +1,22 @@
+Cloudwatch :
+==================
+AWS --> serach Cloudwatch --> create datshboard --> Give name for dashboard --> select graph as line 
+add ec2 metrics --> create widgets and add CPU utilization --> save dashboard 
+
+SNS --> Simple notification 
+go to SNS --> create topic --> name as email-notificatio --> create topic 
+Click on subscription --> create subscription --> ARN (email-notification) --> protocol (Email)
+Add Email address --> create subscription --> 
+Go to your email --> and Confirm it 
+Alarms -->
+
+go to Alarm section --> create alarm --> select metrics as CPU utilization --> cobdition greater than <80%
+Select existing SNS topic --> email-notification --> create Alarm 
+
+Logs --> 
+
+Events -> schedule task 
+         create rule --> rule name --> cron timing --> select functions (Any AWS tasks)--> 
+         create Rule 
+
+ 
